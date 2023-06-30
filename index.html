@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/iris.js"></script>
+    <script src="./js/color.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div id="title">
+            <h1>
+              <b>HTML 색상표</b>
+            </h1>
+            온라인 RGB 색상표, HSL, HSV, CSS 칼라코드 모음<br />
+            모바일에서도 사용 가능합니다.<br />
+            코드 입력 및 칼라 팔레트 선택으로 조회 가능합니다.
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <label for="color-picker" class="col-sm-1 control-label">Name</label>
+        <div class="col-md-10">
+          <input
+            type="text"
+            id="name-color"
+            style="background-color: rgb(186, 218, 85); color: rgb(69, 37, 170)"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <label for="color-picker" class="col-sm-1 control-label">RGB</label>
+        <div class="col-md-10">
+          <input type="text" id="rgb-color" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="color-picker" class="col-sm-1 control-label">HSL</label>
+        <div class="col-md-10">
+          <input type="text" id="hsl-color" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="color-picker" class="col-sm-1 control-label">HSV</label>
+        <div class="col-md-10">
+          <input type="text" id="hsv-color" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="color-picker" class="col-sm-1 control-label">Hex</label>
+        <div class="col-md-10">
+          <input type="text" id="color-picker" value="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
